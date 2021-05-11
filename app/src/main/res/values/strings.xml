@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WorkManager Example Spr21</string>
+    <string name="start">Start</string>
+    <string name="start_periodic_work">Start Periodic Work</string>
+    <string name="stop">Stop</string>
+</resources>
