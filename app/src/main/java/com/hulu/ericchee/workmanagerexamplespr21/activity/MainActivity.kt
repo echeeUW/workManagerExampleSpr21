@@ -1,7 +1,8 @@
-package com.hulu.ericchee.workmanagerexamplespr21
+package com.hulu.ericchee.workmanagerexamplespr21.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.hulu.ericchee.workmanagerexamplespr21.WESApplication
 import com.hulu.ericchee.workmanagerexamplespr21.databinding.ActivityMainBinding
 import com.hulu.ericchee.workmanagerexamplespr21.manager.EmailSyncManager
 

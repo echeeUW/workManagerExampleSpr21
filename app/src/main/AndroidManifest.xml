@@ -3,14 +3,15 @@
     package="com.hulu.ericchee.workmanagerexamplespr21">
 
     <application
+        android:name=".WESApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".WESApplication"
         android:theme="@style/Theme.WorkManagerExampleSpr21">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.EmailDetailActivity"></activity>
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
