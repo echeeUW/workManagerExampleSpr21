@@ -24,11 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start_periodic_work"
-        android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@+id/btnStop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/btnStop"
@@ -46,7 +42,7 @@
         android:layout_height="wrap_content"
         android:text="@string/publish_notification"
         android:layout_marginTop="70dp"
-        android:visibility="gone"
+        android:visibility="visible"
         />
 
 </LinearLayout>
