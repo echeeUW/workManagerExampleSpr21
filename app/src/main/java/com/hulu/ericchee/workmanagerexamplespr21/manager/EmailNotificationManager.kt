@@ -19,6 +19,7 @@ class EmailNotificationManager(
     private val context: Context
 ) {
     private val notificationManager = NotificationManagerCompat.from(context)
+    var isNotificationsEnabled = true
 
     init {
         // Initialize all channels
@@ -26,6 +27,10 @@ class EmailNotificationManager(
     }
 
     fun publishNewEmailNotification() {
+        if (!isNotificationsEnabled) {
+            return
+        }
+
         // Define the intent or action you want when user taps on notification
         val intent = Intent(context, EmailDetailActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK

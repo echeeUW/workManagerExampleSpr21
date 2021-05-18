@@ -45,4 +45,11 @@
         android:visibility="visible"
         />
 
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchNotificationsEnabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Notifications"
+        app:switchPadding="100dp"/>
+
 </LinearLayout>
